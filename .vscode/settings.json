@@ -1,0 +1,36 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.suggest.autoImports": true,
+  "deno.suggest.completeFunctionCalls": true,
+  "deno.suggest.imports.autoDiscover": true,
+  "deno.suggest.names": true,
+  "deno.suggest.paths": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "coverage-gutters.coverageBaseDir": "**/etc/coverage",
+  "coverage-gutters.coverageFileNames": ["cov_profile.lcov"],
+  "coverage-gutters.showGutterCoverage": true,
+  "coverage-gutters.showLineCoverage": true,
+  "coverage-gutters.showRulerCoverage": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/etc/coverage/*.json": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true,
+    "**/etc/coverage/*.json": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}
