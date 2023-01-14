@@ -31,7 +31,8 @@ repos:
         name: kebab-case files only
         entry: filenames must be kebab-case only
         language: fail
-        files: '[^a-z0-9./-\[\]\@]'
+        files: '[^a-z0-9.\-\/\[\]\@]'
+        exclude: '^[A-Z0-9\_\/\[\]\@]+(.md|)$'
       - id: deno-fmt-check
         name: deno formatter check
         description: Auto-format JavaScript, TypeScript, Markdown, and JSON files.
