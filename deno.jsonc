@@ -9,6 +9,7 @@
     "files": {
       "include": [
         "src/",
+        "samples/",
         "mod.ts",
         "*.md",
         "*.json"
@@ -27,6 +28,7 @@
     "files": {
       "include": [
         "src/",
+        "samples/",
         "mod.ts",
         "*.md",
         "*.json"
