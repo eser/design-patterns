@@ -1,4 +1,7 @@
-import { type FactoryFn, type FactoryItem } from "@src/factory/mod.ts";
+import {
+  type FactoryFn,
+  type FactoryItem,
+} from "@src/creational/factory/mod.ts";
 
 interface Product {
   name: string;

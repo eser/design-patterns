@@ -1,4 +1,4 @@
-import { type FactoryClass } from "@src/factory/mod.ts";
+import { type FactoryClass } from "@src/creational/factory/mod.ts";
 
 interface Product {
   name: string;
