@@ -11,7 +11,30 @@ improving the existing ones. I'll be happy to merge your PRs.
 
 ## Patterns
 
-- [x] [Factory](./samples/factory)
+### Creational Patterns
+- [ ] Abstract Factory
+- [ ] Builder
+- [x] [Factory](./samples/factory/)
+- [ ] Prototype
+- [x] [Singleton](./samples/singleton/)
+
+### Structural Patterns
+- [ ] Adapter
+- [ ] Composite
+- [ ] Decorator
+- [ ] Facade
+- [ ] Flyweight
+- [ ] Proxy
+
+### Behavioral Patterns
+- [ ] Chain of Responsibility
+- [ ] Command
+- [ ] Interpreter
+- [ ] Iterator
+- [ ] Mediator
+- [ ] Observer
+- [ ] State
+- [ ] Strategy
 
 
 # Contributing
