@@ -19,7 +19,7 @@ improving the existing ones. I'll be happy to merge your PRs.
 - [x] [Singleton](./samples/singleton/)
 
 ### Structural Patterns
-- [ ] Adapter
+- [x] Adapter
 - [ ] Composite
 - [ ] Decorator
 - [ ] Facade
