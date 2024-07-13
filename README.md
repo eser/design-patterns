@@ -20,7 +20,7 @@ improving the existing ones. I'll be happy to merge your PRs.
 
 ### Structural Patterns
 - [ ] Adapter
-- [ ] Composite
+- [x] Composite
 - [ ] Decorator
 - [ ] Facade
 - [ ] Flyweight
